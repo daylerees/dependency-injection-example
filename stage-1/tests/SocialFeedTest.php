@@ -7,7 +7,7 @@
 // fail. Our code should be tested in isolation, without
 // the reliance upon our dependencies.
 
-class SocialFeedTest extends PHPUnit_Framework_Testcase
+class SocialFeedTest extends PHPUnit_Framework_TestCase
 {
     public function testCanReturnAnArrayOfTweets()
     {

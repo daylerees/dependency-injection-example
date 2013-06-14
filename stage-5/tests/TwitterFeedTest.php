@@ -11,7 +11,7 @@ use Mockery as m;
 // of social network message provider. Take a look at
 // the second test for example.
 
-class SocialFeedTest extends PHPUnit_Framework_Testcase
+class SocialFeedTest extends PHPUnit_Framework_TestCase
 {
     public function testCanReturnAnArrayOfTweets()
     {
