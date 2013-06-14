@@ -13,7 +13,7 @@ use Mockery as m;
 // We don't have to worry about the ProviderInterface breaking,
 // because in the real world it will have its own tests.
 
-class SocialFeedTest extends PHPUnit_Framework_Testcase
+class SocialFeedTest extends PHPUnit_Framework_TestCase
 {
     public function testCanReturnAnArrayOfTweets()
     {
