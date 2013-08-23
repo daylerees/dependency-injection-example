@@ -1,5 +1,7 @@
 # Dependency Injection Example
 
+> Dependency injection doesn't have to be complicated. Let's work it out together!
+
 ## What is it?
 
 Dependency injection is a technique that makes it easier to manage the dependencies of your classes, and allow for better testing using the mocking technique. There are plenty of examples out there on the internet, but I found that many of them tend to overcomplicate the technique. This package contains a simple down-to-earth explanation of the concept, step-by-step and  through the medium of code comments.
