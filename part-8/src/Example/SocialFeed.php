@@ -15,7 +15,7 @@ class SocialFeed
      *
      * @var FeedReaderInterface
      */
-    private $twitterFeedReader;
+    private $feedReader;
 
     /**
      * Injecting dependencies.
