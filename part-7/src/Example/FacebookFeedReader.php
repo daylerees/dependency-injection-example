@@ -2,8 +2,6 @@
 
 namespace Example;
 
-use Exception;
-
 class FacebookFeedReader
 {
     /**

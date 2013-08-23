@@ -2,8 +2,6 @@
 
 namespace Example\FeedReaders;
 
-use Exception;
-
 class FacebookFeedReader implements FeedReaderInterface
 {
     /**
