@@ -6,7 +6,7 @@ class TwitterFeedReaderTest extends PHPUnit_Framework_TestCase
 {
     /**
      * Since our TwitterFeedReader class is decoupled
-     * from our status update retreival class we can
+     * from our status update retrieval class we can
      * now test it in isolation. However, our class
      * doesn't actually connect to the Twitter API so
      * here are some dummy tests. Use your imagination

@@ -21,7 +21,7 @@ class SocialFeedTest extends PHPUnit_Framework_TestCase
      * Mocking!
      *
      * We can use the Mockery (https://github.com/padraic/mockery)
-     * libarary to create a 'fake' instance of the TwitterFeedReader
+     * library to create a 'fake' instance of the TwitterFeedReader
      * class. We don't care about testing that class, it should have
      * its own test suite.
      *
@@ -30,7 +30,7 @@ class SocialFeedTest extends PHPUnit_Framework_TestCase
      * only once, and return an array of responses.
      *
      * By injecting our fake dependency into the FeedReader class
-     * we can base tests upon the mock's predictible responses.
+     * we can base tests upon the mock's predictable responses.
      * The functionality of the FeedReader class hasn't been faked,
      * and it has been tested.
      *

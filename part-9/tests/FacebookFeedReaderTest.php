@@ -5,7 +5,7 @@ use Example\FeedReaders\FacebookFeedReader;
 class FacebookFeedReaderTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * Make sure we can reate a new FacebookFeedReader!
+     * Make sure we can create a new FacebookFeedReader!
      */
     public function testFeedReaderCanBeInstantiated()
     {
@@ -13,7 +13,7 @@ class FacebookFeedReaderTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * Let's make sure we can retreive status updates.
+     * Let's make sure we can retrieve status updates.
      */
     public function testCanRetrieveFacebookStatusUpdates()
     {

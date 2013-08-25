@@ -13,7 +13,7 @@ class SocialFeedTest extends PHPUnit_Framework_TestCase
      *
      * Hmm.. it doesn't pass? Oh that's right. We type-
      * hinted our TwitterFeedReader, of course it won't
-     * accept a facebook one!
+     * accept a Facebook one!
      */
     public function testSocialFeedCanBeInstantiated()
     {
