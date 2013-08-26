@@ -8,7 +8,7 @@ class SocialFeedTest extends PHPUnit_Framework_TestCase
     /**
      * Will it make?
      *
-     * Our tests for this class aren't dependant on any
+     * Our tests for this class aren't dependent on any
      * specific FeedReader implementation anymore, so
      * why don't we mock the interface directly?
      *

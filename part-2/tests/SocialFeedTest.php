@@ -19,7 +19,7 @@ class SocialFeedTest extends PHPUnit_Framework_TestCase
      * Decoupled!
      *
      * Our Twitter API integration is now its own class
-     * and is de-coupled from our status update retreival
+     * and is decoupled from our status update retrieval
      * class. Woohoo! Both classes can now have a single
      * responsibility and can be tested in complete isolation.
      *
