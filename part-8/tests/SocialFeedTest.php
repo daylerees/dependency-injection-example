@@ -16,7 +16,7 @@ class SocialFeedTest extends PHPUnit_Framework_TestCase
      *
      * Seriously though, what we have done here is more
      * impressive than just fixing to allow our tests to pass.
-     * We've implemented a design patter. The adapter pattern.
+     * We've implemented a design pattern. The adapter pattern.
      *
      * If we later decide that we want to create a
      * GooglePlusFeedReader then we can plug it into the system
