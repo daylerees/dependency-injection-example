@@ -23,7 +23,7 @@ class SocialFeed
      *
      * @param TwitterFeedReader $twitterFeedReader
      */
-    public function __construct($twitterFeedReader)
+    public function __construct(TwitterFeedReader  $twitterFeedReader)
     {
         $this->twitterFeedReader = $twitterFeedReader;
     }
