@@ -76,7 +76,7 @@ if (defined('TESTS_GENERATE_REPORT') && TESTS_GENERATE_REPORT === true &&
     PHPUnit_Util_Filter::addDirectoryToFilter(PHP_LIBDIR);
 }
 
-require __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
 /*
  * Unset global variables that are no longer needed.
