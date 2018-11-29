@@ -53,8 +53,9 @@ class Generator
         $allowFinal = false, $block = array(), $makeInstanceMock = false,
         $partialMethods = array())
     {
-        if (is_null($mockName)) $mockName = uniqid('Mockery_');
-        $definition = '';
+        $bytes = random_bytes(5);
+        if (is_null($mockName)) $mockName = "Mockery_" . bin2hex($bytes);
+        $definition  = '';
         $inheritance = '';
         $interfaceInheritance = array();
         $classData = array();

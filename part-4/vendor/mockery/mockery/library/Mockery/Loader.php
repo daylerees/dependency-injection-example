@@ -125,7 +125,7 @@ class Loader
     public function loadClass($className)
     {
         if ($className === 'Mockery') {
-            require $this->getFullPath('Mockery.php');
+            require_once $this->getFullPath('Mockery.php');
             return;
         }
         if (null === $this->_namespace
@@ -138,7 +138,7 @@ class Loader
                 $fileName = str_replace($this->_namespaceSeparator, DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
             }
             $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . $this->_fileExtension;
-            require $this->getFullPath($fileName);
+            require_once $this->getFullPath($fileName);
         }
     }
 
