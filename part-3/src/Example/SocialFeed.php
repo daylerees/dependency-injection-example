@@ -7,6 +7,8 @@ namespace Example;
  * in a number of different formats.
  */
 class SocialFeed
+
+
 {
     /**
      * An instance of a TwitterFeedReader.
