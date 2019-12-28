@@ -7,6 +7,8 @@ namespace Example;
  * in a number of different formats.
  */
 class SocialFeed
+
+
 {
     /**
      * Retrieve an array of social network status updates.
