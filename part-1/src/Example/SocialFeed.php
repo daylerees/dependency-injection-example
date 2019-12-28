@@ -1,7 +1,4 @@
-<?php
-
-namespace Example;
-
+<?php namespace Example;
 use Exception;
 
 /**
@@ -9,6 +6,8 @@ use Exception;
  * in a number of different formats.
  */
 class SocialFeed
+
+
 {
     /**
      * Retrieve an array of social network status updates.
